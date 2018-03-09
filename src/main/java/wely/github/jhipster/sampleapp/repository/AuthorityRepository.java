@@ -1,0 +1,11 @@
+package wely.github.jhipster.sampleapp.repository;
+
+import wely.github.jhipster.sampleapp.domain.Authority;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+/**
+ * Spring Data JPA repository for the Authority entity.
+ */
+public interface AuthorityRepository extends JpaRepository<Authority, String> {
+}
